@@ -1,0 +1,44 @@
+.card {
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.card .card-body p {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: hsl(228, 12%, 48%);
+}
+.card .card-body .tt {
+   letter-spacing: 3px;
+   font-size: small;
+    }
+
+.card .card-body .offer {
+color: hsl(158, 36%, 37%);
+font-size: xx-large;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.card .desktop {
+    display: block;
+    width:300px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+
+.card .mobile {
+    display: none;
+    width:100%
+}
+
+@media(max-width:375px){
+
+    .card .mobile {
+        display: block;
+    }
+
+    .card .desktop {
+        display: none;
+    }
+}
